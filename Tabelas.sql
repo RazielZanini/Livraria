@@ -1,3 +1,5 @@
+create database Livraria;
+use Livraria;
 create table Livro (
 codigoLivro int not null auto_increment,
 editora varchar(30) not null,
