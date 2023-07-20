@@ -53,7 +53,3 @@ add column idcliente int;
 alter table compra
 add foreign key (idCliente)
 references cliente (idcliente);
-
-describe Livro;
-describe Fornecedor;
-
