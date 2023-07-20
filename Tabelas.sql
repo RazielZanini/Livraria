@@ -5,6 +5,8 @@ codigoLivro int not null auto_increment,
 editora varchar(30) not null,
 autor varchar(30) not null,
 titulo varchar(30),
+link varchar(200),
+valor double,
 primary key (codigoLivro)
 );
 create table Fornecedor (
